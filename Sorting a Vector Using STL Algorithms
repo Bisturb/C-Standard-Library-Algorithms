@@ -1,0 +1,19 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+int main() {
+    std::vector<int> numbers = {5, 2, 8, 1, 9};
+
+    // Sorting using STL sort algorithm
+    std::sort(numbers.begin(), numbers.end());
+
+    // Displaying sorted vector
+    std::cout << "Sorted numbers: ";
+    for (int num : numbers) {
+        std::cout << num << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
